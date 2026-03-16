@@ -7,10 +7,16 @@ const ListObject = (item: Article) => {
     };
     return (
         <div
-            className="m-2 p-4 border-2 border-red-600 w-full"
+            className="m-2 p-4 border-2 border-red-600 w-full hover:bg-red-600 hover:cursor-pointer "
             onClick={handleClick}
         >
-            {item.Name}
+            <div className="flex justify-between">
+                <span className="font-mono text-3xl font-bold">
+                    {item.Name}
+                </span>
+                <span>{item.Date}</span>
+            </div>
+            <p className="text-left text-s font-light"> {item.Summary} </p>
         </div>
     );
 };

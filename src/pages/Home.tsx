@@ -5,17 +5,19 @@ import type { Article } from "../schema/schema";
 function Home() {
     const [timer, useTimer] = useState(false);
     useEffect(() => {
-        setInterval(() => useTimer(true), 5000);
+        setInterval(() => useTimer(true), 2000);
     }, []);
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className=" flex flex-col min-h-screen justify-center items-center">
-                <div className="bg-red-700 px-10 py-3">
-                    <p className="text-9xl font-alfa">
-                        I have something to say
+            <div className=" flex flex-col min-h-screen justify-center items-center w-full overflow-x-hidden px-5">
+                <div className="bg-red-700  py-3 w-full">
+                    <p className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-alfa text-center leading-tight">
+                        I have Something to say
                     </p>
                 </div>
-                <p className="ml-auto font-alfa">{timer ? "scroll" : ""}</p>
+                <p className="ml-auto font-alfa">
+                    {timer ? "I'm Tryna Yap" : "..."}
+                </p>
             </div>
             <div className=" flex flex-col justify-center items-center w-1/2">
                 {table.items.map((item: Article) => {

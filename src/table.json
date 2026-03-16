@@ -2,7 +2,21 @@
     "items" : [
 	{
 	    "FileName":"article1.txt",
-	    "Name":"The great wall has returned"
-	}
+	    "Name":"The sun is too big",
+	    "Summary" :"The Sun: An Astronomical Oversight",
+	    "Date":"13-3-2026"
+	},
+	{
+	    "FileName":"article2.txt",
+	    "Name":"The moon is too small",
+	    "Summary" : "The Moon: A Disappointing Companion",
+	    "Date":"13-3-2026"
+	},
+	{
+	    "FileName":"article3.txt",
+	    "Name":"The ocean is too wet",
+	    "Summary" :"The Ocean: Please Drink Some Water",
+	    "Date":"13-3-2026"
+	} 
     ]
 }
