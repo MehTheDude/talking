@@ -9,7 +9,7 @@ function BackButton() {
 
     return (
         <div
-            className="absolute top-0 left-0 p-5 hover:cursor-pointer"
+            className="fixed top-0 left-0 p-5 pr-15 h-screen hover:cursor-pointer"
             onClick={goBack}
         >
             ←

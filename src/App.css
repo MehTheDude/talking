@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import "tailwindcss";
 #root {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(20, 10, 10);
     width : 100%;
   margin: 0 auto;
   text-align: center;
