@@ -1,19 +1,19 @@
 {
     "items" : [
 	{
-	    "FileName":"article1.txt",
+	    "FileName":"article1",
 	    "Name":"The sun is too big",
 	    "Summary" :"The Sun: An Astronomical Oversight",
 	    "Date":"13-3-2026"
 	},
 	{
-	    "FileName":"article2.txt",
+	    "FileName":"article2",
 	    "Name":"The moon is too small",
 	    "Summary" : "The Moon: A Disappointing Companion",
 	    "Date":"13-3-2026"
 	},
 	{
-	    "FileName":"article3.txt",
+	    "FileName":"article3",
 	    "Name":"The ocean is too wet",
 	    "Summary" :"The Ocean: Please Drink Some Water",
 	    "Date":"13-3-2026"

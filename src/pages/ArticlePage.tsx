@@ -7,7 +7,10 @@ const ArticlePage = () => {
     const [rawContent, setRawContent] = useState("");
     useEffect(() => {
         const importContent = async () => {
-            const response = await fetch(`/articles/${filepath}`);
+            const basePath = "/talking";
+            const response = await fetch(
+                `${basePath}/articles/${filepath}.txt`,
+            );
             const content = await response.text();
             setRawContent(content);
         };
