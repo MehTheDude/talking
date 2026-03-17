@@ -24,9 +24,11 @@ const ArticlePage = () => {
     return (
         <div className="flex flex-col justify-center items-center ">
             <BackButton />
-            <div className="w-2/3 p-10">
-                <h1 className="font-alfa bg-red-700 mb-10">{Heading}</h1>
-                <p className="text-left text-2xl whitespace-pre-wrap font-mono">
+            <div className="w-full md:w-2/3 p-10">
+                <p className="font-alfa bg-red-700 mb-3 md:mb-10 text-2xl md:text-6xl">
+                    {Heading}
+                </p>
+                <p className="text-left md:text-2xl whitespace-pre-wrap font-mono">
                     {content}
                 </p>
             </div>
