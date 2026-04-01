@@ -20,9 +20,12 @@ function Home() {
                 </p>
             </div>
             <div className="flex flex-col justify-center items-center w-4/5 sm:w-3/4 md:w-1/2 lg:w-1/3">
-                {table.items.map((item: Article) => {
-                    return <ListObject {...item} />;
-                })}
+                {table.items
+                    .slice()
+                    .reverse()
+                    .map((item: Article) => {
+                        return <ListObject {...item} />;
+                    })}
             </div>
         </div>
     );
